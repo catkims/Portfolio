@@ -82,7 +82,6 @@ li a:hover {
     height: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 1%;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -94,6 +93,7 @@ li a:hover {
     background-size: cover;
     font-weight: 600;
     padding-bottom: 6%;
+    margin-top: 5%;
 }
 
 .hero-text {
@@ -118,6 +118,11 @@ li a:hover {
     left: 50%;*/
     /*transform: translate(-50%, -50%);*/
     color: black;
+}
+
+.top-line {
+    padding-bottom: -1%;
+    margin-bottom: -1%;
 }
 
 .hero-subtitle {
