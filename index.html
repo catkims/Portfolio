@@ -1,63 +1,81 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Catherine's Portfolio</title>
-    <!--Font awesome CDN-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    <!--Scroll reveal CDN-->
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <div class="container">
-            <nav class="nav">
-                <div class="menu-toggle">
-                    <i class="fas fa-bars"></i>
-                    <i class="fas fa-times"></i>
-                </div>
-                <a href="index.html" class="logo"><img src="images/logo-rosa.png" alt=""></a>
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">About me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Experience</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Projects</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <!--header ends-->
-    <section class="hero" id="hero">
-        <div class="container">
-            <h2 class="sub-headline">
-                <span class="first-letter">W</span>elcome
-            </h2>
-            <h1 class="headline">Portfolio</h1>
-            <div class="headline-description">
-                <div class="seperator">
-                    <div class="line line-left"></div>
-                    <div class="asterisk"><i class="fas fa-asterisk"></i></div>
-                    <div class="line line-right"></div>
-                </div>
-                <div class="single-animation">
-                    <h5>Ready to be opened</h5>
-                    <a href="#" class="btn cta-btn"></a>
-                </div>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+        <link rel="icon" href="images/name_icon.png">
+        <title> Home </title>
+    </head>
+      <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+        <i class="arrow up"></i>
+      </button>
+        <!--nav bar-->
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#design">Design</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="files/Catherine Kim, Resume.pdf" target = "blank" class="resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div id="hero-image">
+            <div class="hero-text">
+                <h1 class = "top-line">Hi, I am
+                    <a href="#contact" class="name">Catherine Kim</a>
+                </h1>
+                <h1>I like to 
+                  <a href="#design" class="design">design</a> &
+                  <a href="#work" class="program">program</a>.
+                </h1>
+                <p class = "hero-subtitle">
+                  I am an aspiring product designer and software engineer based in Ann Arbor, MI. 
+                  I am passionate about designing products to improve quality of life, and I love learning new things.
+                </p>
             </div>
         </div>
-    </section>
-    <!--Hero ends-->
-    <script src="main.js"></script>
-</body>
+        <div id="design">
+          <h1 class="title">Design.</h1>
+          <a href="foodscription.html" class="design-1"></a>
+        </div>
+        <div id="work">
+          <h1 class="title">Work.</h1>
+          <a href="https://www.qualcomm.com/" class="work-1"></a>
+        </div>
+        <div id="contact" class="site-content home">
+          <h1 class="title about me">Say hi!</h1>
+          <div class="big-article about-me">
+            <div class="big-article-image-wrapper about-me"></div>
+              <div class="project-text-wrapper">
+                <div class="big-article-title-wrapper">
+                  <p class="project-tn-sub">Hi, my name is Catherine! I am currently a second year student double majoring in 
+                    computer science and cognitive science at the University of Michigan. <br><br>I am passionate about 
+                    programming and in my spare time, I enjoy toying with UI/UX design.
+                  </p>
+                  <div class = "links">
+                    <div class="email">
+                      <a href="mailto:catkims@umich.edu">
+                          <img src="http://assets.stickpng.com/images/584856b4e0bb315b0f7675ac.png" alt="Email" style="width:42px;height:42px;">
+                      </a>
+                  </div>
+                  <div class="linkedin">
+                      <a href="https://www.linkedin.com/in/catkims/" target="_blank">
+                          <img src="https://icons-for-free.com/iconfiles/png/512/black+line+linkedin+social+icon-1320191608689709544.png" alt="LinkedIn" style="width:42px;height:42px;">
+                      </a>
+                  </div>
+                  <div class="github">
+                      <a href="https://github.com/catkims" target="_blank">
+                          <img src="https://image.flaticon.com/icons/png/512/25/25231.png" alt="Github" style="width:42px;height:42px">
+                      </a>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <script src="script.js"></script>
+    </body>
 </html>

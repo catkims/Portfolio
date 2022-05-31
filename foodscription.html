@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="foodscription.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+        <link rel="icon" href="images/name_icon.png">
+        <title>Foodscription</title>
+    </head>
+    <body>
+        <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+            <i class="arrow up"></i>
+        </button>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#design">Design</a></li>
+            <li><a href="index.html#work">Work</a></li>
+            <li><a href="files/Catherine Kim, Resume.pdf" target = "blank" class="resume">Resume</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        <div class="site-wrapper">
+            <div class ="hero-image">
+                <div class="hero-text">
+                    <h1 class = "project-title">Foodscription</h1>
+                    <div class = "project-subtitle">Have your favorite meals right at your door.</div>
+                </div>
+            </div>
+            <div class = "details">
+                <div class = "row">
+                    <div class ="attribute">Problem Statement</div>
+                    <div>College students struggle to find time to order foods that they eat regularly.</div>
+                </div>
+                <div class = "row">
+                    <div class ="attribute">Project Length</div>
+                    <div>1 month</div>
+                </div>
+                <div class = "row">
+                    <div class ="attribute">Client</div>
+                    <div>College students</div>
+                </div>
+            </div>
+            <div class ="introduction">
+                <p>
+                    College students often have extremely busy schedules, 
+                    disallowing time to cook food or even have enough time to physically order 
+                    and wait for the delivery to arrive.
+                </p>
+                <p>
+                    The main purpose of this product is to create a subscription service of 
+                    foods that a user eats regularly. For example, if a user frequently drinks 
+                    coffee and eats a bagel in the morning, they can set up a subscription to 
+                    get a coffee and bagel delivered every morning. This way, students can eliminate 
+                    the time ordering food and be able to customize their meals rather than having to take time to cook
+                    food or waste time having to physically order every time they 
+                    want to eat.
+                </p>
+            </div>
+            <div class = "curly-section blue">
+                <h1 class = "title outcomes">Expected Outcomes<br></h1>
+                <div class = "card-wrapper">
+                    <div class = "card">
+                        <h4>Outcome #1</h4>
+                        <p>Through this product, students will be able to save time by not having 
+                            to physically order food items that they eat regularly. Instead, they 
+                            will be able to create a subscription plan so that their food can be 
+                            delivered right to their door or be ready for pickup, without having 
+                            to worry about remembering to order.</p>
+                    </div>
+                    <div class = "card">
+                        <h4>Outcome #2</h4>
+                        <p>Secondary personas such as restaurants/cafes will have more revenue 
+                           because students will be ordering more frequently, creating more business.</p>
+                    </div>
+                </div>
+            </div>
+            <div class = "persona">
+                <h1 class = "persona-title">Personas</h1>
+                <div><p>To better empathize with my users, I have created two user profiles. Kaitlyn is a
+                    primary persona and Sam is a secondary persona.
+                </p></div>
+                <img src = "images/persona-one.png" alt = "Persona one">
+                <img src = "images/persona-two.png" alt = "Persona two">
+                <p><a href = "files/Personas.pdf" target = "blank" class = "persona-pdf">User Persona PDF</a></p>
+            </div>
+            <div class = "actions">
+                <div class = "curly-section purple">
+                    <h1 class = "title actions">Key Actions<br></h1>
+                    <div class = "card-wrapper">
+                        <div class = "card">
+                            <h4>Action #1</h4>
+                            <h3>User Onboarding</h3>
+                            <p>Users can log in to the app by entering their email address and password.
+                                For first time users, users can create a new account by entering their full name, 
+                                email address, password, and phone number. There is a forgot my password option 
+                                where users can recover their password by entering their email address or phone number. 
+                                A message is then sent to their method of choice with steps on how to reset their password.</p>
+                        </div>
+                        <p class = "action-header">
+                            Home page
+                        </p>
+                        <div class = "card">
+                            <h4>Action #2</h4>
+                            <h3>Home Page - General</h3>
+                            <p>The home page features three key elements: subscriptions that are upcoming, subscriptions 
+                               that are currently active, and recommended subscriptions based on the user’s current ones.</p>
+                        </div>
+                        <div class = "card">
+                            <h4>Action #3</h4>
+                            <h3>Home Page - Upcoming Subscriptions</h3>
+                            <p>When the user clicks on the upcoming subscriptions, it displays a new frame showing a 
+                                schedule of active subscriptions. The schedule is divided into the days that subscriptions
+                                will arrive. For each day, it shows what meal category subscriptions belong to (breakfast, 
+                                lunch, etc.), and for the subscriptions themselves, what company it’s from, the item they 
+                                are getting, and the time it will be delivered approximately.</p>
+                        </div>
+                        <div class = "card">
+                            <h4>Action #4</h4>
+                            <h3>Home Page - My Subscriptions</h3>
+                            <p>For the page showing subscriptions that are currently active, it shows all of the user’s 
+                                subscriptions and how many deliveries are left for each one. The user can also click on 
+                                individual subscriptions to see specific details about it. It shows key details such as
+                                 the item they are receiving, start and end date, how often it repeats (weekly, monthly,
+                                  etc.), the time it arrives, delivery instructions, and an option to cancel the subscription.</p>
+                        </div>
+                        <p class = "action-header">
+                            Subscription
+                        </p>
+                        <div class = "card">
+                            <h4>Action #5</h4>
+                            <h3>Creating a Subscription</h3>
+                            <p> The user can pick any item from select businesses and create a specific subscription plan. 
+                                When creating a subscription plan, the user picks the start and end date, how often it repeats 
+                                (weekly, monthly, etc.), what time it arrives or is ready for pickup, and if it should be 
+                                delivered or picked up.
+                            </p>
+                        </div>
+                        <p class = "action-header">
+                            Settings
+                        </p>
+                        <div class = "card">
+                            <h4>Action #6</h4>
+                            <h3>Settings - Personal Information</h3>
+                            <p>The user can change their name, email address, phone number, and password.</p>
+                        </div>
+                        <div class = "card">
+                            <h4>Action #7</h4>
+                            <h3>Settings - Payment Methods</h3>
+                            <p>This page displays the user’s saved payment methods and the user can add new methods.
+                                 New payment methods include credit/debit, Venmo, Paypal, and Apple Pay. The user is 
+                                 also able to delete saved payment methods.</p>
+                        </div>
+                        <div class = "card">
+                            <h4>Action #8</h4>
+                            <h3>Settings - Delivery Address</h3>
+                            <p>This page displays the user’s currently saved delivery address and the user can add 
+                                new ones by searching in the search bar. The user is also able to modify current 
+                                addresses or delete addresses.</p>
+                        </div>
+                        <div class = "card">
+                            <h4>Action #9</h4>
+                            <h3>Settings - Privacy Settings</h3>
+                            <p>This page displays location access settings and why the app needs location access 
+                                information. The three options the user can pick are location access is always on, 
+                                only while using the app, or location access is never allowed.</p>
+                        </div>
+                        <div class = "card">
+                            <h4>Action #10</h4>
+                            <h3>Settings - Notifications</h3>
+                            <p>The user can toggle if they want delivery notifications, either through SMS or push 
+                                notifications, and if they want pickup notifications.</p>
+                        </div>
+                        <div class = "card">
+                            <h4>Action #11</h4>
+                            <h3>Settings - Log Out</h3>
+                            <p>The user can log out of the app which takes them back to the log-in screen.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class ="planning-title">
+                <h1>Planning</h1>
+            </div>
+            <div class="planning">
+                <p>
+                    Before starting any work on the project, I created a general schedule on Pivotal Tracker 
+                    of when certain features should be released. I organized bigger features by epics, and categorized
+                    smaller features in stories. Throughout the project, I updated the schedule
+                    and through burn-down charts, I was able to see if my project was on schedule or not.
+                </p>
+                <h2> Current Iteration</h2>
+                <p>
+                    This is an overall schedule of features that are to be released. Features are categorized
+                    by label.
+                </p>
+                <div class="planning-img">
+                    <img src="images/current-iteration.png">
+                </div>
+                <p><a href = "images/current-iteration.png" target="blank" class="png">Current Iteration</a></p>
+                <h2>Project overview</h2>
+                <p>This displays the main data surrounding my tracker. This allows me to see useful trends in my project.</p>
+                <p><strong>Velocity:</strong> charts the number of points accepted in each iteration, the running velocity, and the volatility of the project.</p>
+                <p><strong>Cycle Time:</strong> demonstrates the time spent on stories by state, story type, or points, and shows all the stories in a given iteration.</p>
+                <p><strong>Rejection rate:</strong> shows the rate at which stories were rejected and the amount of time before they were restarted.</p>
+                <p><strong>Story Composition:</strong> shows the distribution of accepted and created stories of each type over time.</p>
+                <img src="images/trends.png">
+                <p><a href = "images/trends.png" target = "blank" class = "png" >Project Trends</a></p>
+            </div>
+            <div class="flow-title">
+                <h1>Architecture & the user flow</h1>
+            </div>
+            <div class ="user-flow">
+                <p>
+                    After I decided on the main screens, I created a flowchart to organize my different features.
+                </p>
+            </div>
+            <div class="flow-img">
+                <img src="images/User flow.png">
+            </div>
+            <div class="flowchart-pdf">
+                <p><a href = "images/User flow.png" target = "blank" class = "png" >Flowchart</a></p>
+            </div>
+            <div class="wireframing-title">
+                <h1>Wireframing & Low-fidelity Prototypes</h1>
+            </div>
+            <div class ="wireframing">
+                <p>
+                    After creating a flowchart, I created low-fidelity prototypes so that I could map out the general
+                    structure before making the final prototype. This way, I could make adjustments to any features without
+                    it being too costly.
+                </p>
+                <div class="wireframing-img">
+                    <img src="images/Active-orders-1.jpg">
+                </div>
+                <p><a href = "images/Active-orders-1.jpg" target = "blank" class = "png" >Paper-Prototypes (PDF)</a></p>
+            </div>
+            <div class="curly-section green">
+                <h1 class = "title rationale">Rationale<br></h1>
+                <div class = "card-wrapper">
+                    <p class="rationale-text">
+                        Many existing food delivery apps, such as DoorDash and Uber Eats, require the user to go to the app and 
+                        purchase a food item for delivery every time they want food. However, if the user doesn't have enough
+                        time, they can't afford going through the delivery process every time. Therefore, I created a way so that
+                        a user can still get food delivered, without having to go through the delivery process every time. If the user
+                        has a subscription plan set up, they can automatically have food delivered without having to physically order
+                        every time.
+                    </p>
+                    <p class="rationale-text">
+                        When creating this product, there were several direct and indirect competitor products that I researched.
+                        Two competitors that I researched were Swiggy and DoorDash. For Swiggy, the primary persona are the food
+                        deliverers, where the app's main focus is increasing the tipping for delivery drivers. Whereas for DoorDash,
+                        the app's main focus is to provide a way for users to order food from a wide selection of restaurants and have them
+                        be delivered to their door. While these are certainly solutions to real issues, they are not solutions to this specific
+                        problem statement.
+                    </p>
+                    <p class="rationale-text">
+                        The following are reasons behind my design choices such as why I used certain visual elements, the overall structure
+                        of my prototype, and influences from other existing products.
+                    </p>
+                    <p class = "rationale-header">
+                        Visual
+                    </p>
+                    <div class = "card">
+                        <h4>Reason #1</h4>
+                        <h3>Visual - Minimalism</h3>
+                        <p> While creating this product, I tried to make the design as minimalistic as possible. When there is too
+                            much information on one frame at once, it can be very overwhelming for the user, discouraging the use of the
+                            product. Therefore, I kept the frames consistent by having white as the main background color and only using 
+                            one accent color.
+                        </p>
+                        <p>
+                            I used navy blue as the accent color because it signifies professionalism to the user. If I had used a brighter color,
+                            it would have conveyed a different meaning, and I wanted my product to display business.
+                        </p>
+                    </div>
+                    <div class = "card">
+                        <h4>Reason #2</h4>
+                        <h3>Visual - Consistency</h3>
+                        <p>Throughout this product, I tried to keep designs and functions as consistent as possible. For example, I made sure to
+                            include a "save" button wherever a user could change information, so that the user knows that their changes are being saved.
+                            I made sure to include a back arrow for every screen that was not a main screen, so that the user can go back to the previous
+                            screen. I made sure that for every main screen, there is a bar at the bottom where the user can switch between different flows.
+                        </p>
+                        <p>
+                            By keeping the design consistent, the user isn't confused by the functionality of an action. The user isn't forced to memorize
+                            different functions because functions are the same for each screen.
+                        </p>
+                    </div>
+                    <div class = "card">
+                        <h4>Reason #3</h4>
+                        <h3>Visual - Match with the Real World</h3>
+                        <p>
+                            Whenever I used icons, I made sure that the functionality of the icon matches what it would do in the real world. For example,
+                            an icon of a home matches with returning to the home screen. Whenever the function of an icon wasn't clear, such as an icon for 
+                            a subscription, I made sure to match the word to the icon.
+                        </p>
+                        <p>
+                            By doing this, functions of icons are intuitive for the user, and the user does not have to guess what an icon does. 
+                        </p>
+                    </div>
+                    <p class = "rationale-header">
+                        Structure
+                    </p>
+                    <div class = "card">
+                        <h4>Reason #4</h4>
+                        <h3>Structure - Continuity</h3>
+                        <p>
+                            To avoid confusing the user, I made sure that features with the same function or related functions stay within the same 
+                            page. An example of this includes using popup or a dropdown menu instead of creating a new screen so that the user knows 
+                            that they are within the same flow.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="prototype-title">
+                <h1>Interactive Prototype</h1>
+            </div>
+            <div class="prototype-text">
+                <p>
+                    As the final step of my project, I created the interactive prototype on Figma. The main features are split into 
+                    different flows so that it is easier to switch between different functions.
+                </p>
+            </div>
+            <div class = "prototype">
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="1000" height="600" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F8NxVWCowHDsxBmvL1oQZHX%2FDP-2%3Fnode-id%3D3%253A3%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D3%253A3%26show-proto-sidebar%3D1" allowfullscreen></iframe>
+            </div>
+            <div class="curly-section pink">
+                <h1 class = "title feedback">User Feedback<br></h1>
+                <div class = "card-wrapper">
+                    <div class="feedback-text">
+                        <p>The following is feedback that I recieved on the final product.</p>
+                    </div>
+                    <div class = "card">
+                        <h4>Feedback #1</h4>
+                        <p> While this product solves the problem of students not having enough time to go out and physically order food,
+                            it poses another problem that it creates a consistent source of economical deficit for students. Like all subscriptions,
+                            it takes a portion of the student's money every month, week, or even day, and for some, this is not feasible.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="conclusion">
+                <h1 class="conclusion-title">Conclusion</h1>
+                <p>
+                    While working on this project, I underestimated how much time each frame would take. Additionally, I underestimated the scope of this project.
+                    There were many intermediate frames/steps that I did not anticipate. Due to this, I spent a lot of time before the project was due, filling in gaps
+                    between flows. While I started this project relatively early, I still spent a lot of crunch time right before the project was due.
+                </p>
+                <p>
+                    If I could do this project differently, I would have narrowed down the aspects of this project. While the problem statement and project scope are 
+                    relatively narrow, I added too many features such as many things to change in the settings, different aspects of the subscription, etc. However, it
+                    difficult to say what to narrow down, as I think many of the features I added are essential. Therefore, if I could do this project differently,
+                    I would have spent more time creating a flow chart and low-fidelity prototypes.
+                </p>
+            </div>
+            <div class="curly-section yellow">
+                <h1 class = "title next-steps">Next Steps<br></h1>
+                <div class = "card-wrapper">
+                    <p class="next-steps-text">If I had more time to work on this project, these are the next steps I would do to take this product
+                        to the next level.</p>
+                    <div class = "card">
+                        <h4>Step #1</h4>
+                        <h3>Re-evaluate</h3>
+                        <p>I will further develop user personas and conduct more research on the needs of college students. Because of the short amount of time,
+                            I was not able to conduct as much research as I wanted to about this topic.
+                        </p>
+                    </div>
+                    <div class = "card">
+                        <h4>Step #2</h4>
+                        <h3>Redesign</h3>
+                        <p>While creating graphics for this website, I noticed that many of my frames have white as their main color. While this is not bad because it makes
+                            the design minimalistic, I thought they were a little bland. Therefore, I will redesign some of the frames so that they are less bland and use a
+                            different background color other than white.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <script src="script.js"></script>
+        </div>
+    </body>
+</html> 
