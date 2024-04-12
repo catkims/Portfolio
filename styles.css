@@ -245,7 +245,7 @@ span {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    max-width: 1100px;
+    max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
     padding-top: 0.5%;
@@ -264,8 +264,8 @@ span {
     display: flex;
     margin-bottom: 10%;
     width: 100%;
-    max-width: 1100px;
-    height: 550px;
+    max-width: 1200px;
+    height: 600px;
     background-size: cover;
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.1), 0 15px 35px 0 rgba(0, 0, 0, 0.05);
     background-image: url(images/Untitled.svg);
@@ -286,7 +286,7 @@ span {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    max-width: 1100px;
+    max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
     padding-top: 0.5%;
@@ -304,8 +304,8 @@ span {
     justify-self: center;
     display: flex;
     width: 100%;
-    max-width: 1100px;
-    height: 550px;
+    max-width: 1200px;
+    height: 600px;
     background-size: cover;
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1), 0 15px 35px 0 rgba(0, 0, 0, 0.05);
     background-image: url(images/amazon.svg);
@@ -326,8 +326,8 @@ span {
     display: flex;
     margin-bottom: 10%;
     width: 50%;
-    max-width: 550px;
-    height: 550px;
+    max-width: 600px;
+    height: 600px;
     background-size: cover;
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1), 0 15px 35px 0 rgba(0, 0, 0, 0.05);
     background-image: url(images/qualcomm.svg);
@@ -346,8 +346,10 @@ span {
     flex-direction: column;
     justify-self: center;
     display: flex;
+    margin-bottom: 10%;
     width: 50%;
-    height: 550px;
+    max-width: 600px;
+    height: 600px;
     background-size: cover;
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1), 0 15px 35px 0 rgba(0, 0, 0, 0.05);
     background-image: url(images/um.svg);
